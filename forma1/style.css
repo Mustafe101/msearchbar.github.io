@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background: rgb(243, 243, 193)
+}
+
+.menu {
+    width: 100%;
+    background:  bisque;
+    overflow: auto;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 60px;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    width: 200px;
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.menu li a:hover{
+    color: rgb(247, 52, 52);
+    opacity: 70%;
+    font-size: 20px;
+}
+
+.search-box{
+    background: white;
+    margin-top: 14px;
+    float: right;   
+    margin-right: 90px;
+}
+
+input[type=text] {
+    padding: 7px;
+    border: none;
+    font-size: 16px;
+    font-family: sans-serif;
+}   
+
+button{
+    float: right;
+    background: rgb(138, 132, 132);
+    color: rgb(0, 0, 0);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    position: relative;
+    padding: 7px;
+    font-family: sans-serif;
+    border: none;
+    font-size: 16px;
+}
